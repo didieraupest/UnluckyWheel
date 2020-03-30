@@ -1,0 +1,68 @@
+body {
+  background-color: #8593C8;
+  font-family: 'Corbel', 'Californian FB', 'Source Sans Pro', 'sans-serif';
+  margin: 0 0 0 0px;
+}
+
+p {
+  color: #000000;
+}
+
+button, a {
+  background-color: #F0A054;
+  color: #000000;
+  display: block;
+  font-size: 20px;
+  padding: 10px;
+  /* margin: 0 auto; */
+  max-width: 120px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #FFFFFF;
+}
+
+footer {
+  bottom: 0px;
+  position: absolute;
+  text-align: center;
+  background: #A0A6A0;
+  width: 100%;
+}
+.container {
+  margin: 8px
+}
+
+.pointer {
+  fill: #F0A054;
+  opacity: 1;
+}
+
+.start {
+  left: 20%;
+  width: 300px;
+  top: 10%;
+}
+
+.result {
+  left: 20%;
+  top: 10%;
+  width: 300px;
+  opacity: 0;
+}
+
+.sectors {
+  fill: #000000;
+}
+
+.circlePit {
+  float: right;
+  right: 10%;
+  width: 80%;
+  height: 80%;
+  min-height: 450px;
+  min-width: 250px;
+}

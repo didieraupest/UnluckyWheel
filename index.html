@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>(Un)Lucky Wheel</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js'></script>
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <h1>(Un)Lucky Wheel</h1>
+    <h2 id="result" class="result">
+      And the winner is: <span id="winner"></span>
+    </h2>
+    <div class="container">
+      <svg id="circlePit" class="circlePit">
+      </svg> 
+      <span>
+        <p>Write the name of every players here.</p>      
+      </span>
+      <span class="setup">
+        <textarea id="playersDefinition" cols="15" rows="6"></textarea>
+      </span>
+      <span class="start">
+        <button class="spin" onclick="spin()" >Spin</button>
+      </span> 
+    </div>  
+
+    <footer>SILAS SAS</footer>
+  </body>
+</html>
